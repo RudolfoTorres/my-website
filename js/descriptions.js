@@ -2,7 +2,6 @@ function changeDescriptions(text,width,display){
     console.log(text);
     console.log(width);
     console.log(display);
-    document.querySelector(".descriptions").innerHTML = "<p>"+text+"</p>";
 };
 
 const descriptions = [
@@ -26,4 +25,3 @@ const descriptions = [
 for (var i = 0; i < descriptions.length; i++) {
     changeDescriptions(descriptions[i].text, descriptions[i].width, descriptions[i].display);
 };
-
